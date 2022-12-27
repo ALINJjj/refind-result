@@ -6,7 +6,9 @@ import { MAP__SRC } from "../../links";
 import { faMapLocation } from "@fortawesome/free-solid-svg-icons";
 
 import ContactForm from "./Form/form";
+import { useState } from "react";
 const Contact = () => {
+
   return (
     <div className="contact">
       <div className="information">

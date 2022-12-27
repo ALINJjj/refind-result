@@ -16,12 +16,17 @@ const Book = () => {
 
   return (
     <div className="book ">
-
-      {showModal && <Modal onClick={closeModal} show={true} info="remove" />}
+      {showModal && (
+        <Modal
+          message="  sorry this service is note alowed for online bookings
+        please contact aus for more information"
+          onClick={closeModal}
+          show={true}
+          info="remove"
+        />
+      )}
       <div className="book">
-            <FreeConsult/>
-                
-           
+        <FreeConsult />
       </div>
     </div>
   );

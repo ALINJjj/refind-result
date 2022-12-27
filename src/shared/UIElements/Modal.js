@@ -16,8 +16,7 @@ const ModalComponent = (props) => {
           <FontAwesomeIcon icon={faXmark} onClick = {props.onClick}/>
       </div>
       <div className="message">
-        sorry this service is note alowed for online bookings
-        please contact aus for more information
+      {props.message}
       </div>
       <div className="button__in__modal">
           <Button className = "modal-button" onClick = {props.onClick} >Got it</Button>

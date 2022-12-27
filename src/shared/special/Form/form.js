@@ -3,7 +3,7 @@ import "./form-components/Button";
 import "./form.css";
 import Button from "./form-components/Button";
 import emailjs from "@emailjs/browser";
-
+import { useState } from "react";
 import {
   VALIDATOR_EMAIL,
   VALIDATOR_MINLENGTH,
@@ -11,28 +11,42 @@ import {
 } from "../../../validator/validators";
 import useForm from "../../../hooks/form-hook";
 import { useRef } from "react";
+import Modal from "../../UIElements/Modal";
 const ContactForm = () => {
+  const [showModal, setShowModal] = useState(false);
+
+  const activeModal = () => {
+    setShowModal(true);
+  }
+  const closeModal = () => {
+    setShowModal(false);
+  }
   const formRef = useRef();
   const sendHandler = (e) => {
     e.preventDefault();
 
     if (formState.formIsValid) {
-      console.log(formRef.current);
-      emailjs
-        .sendForm(
-          "service_vrmp10w",
-          "template_0dqx5gm",
-          formRef.current,
-          "Lp6zHOUyDd3S17ht-"
-        )
-        .then(
-          (result) => {},
-          (error) => {
-            console.log(error.text);
-          }
-        );
+        try {
+          emailjs
+          .sendForm(
+            "service_vrmp10w",
+            "template_0dqx5gm",
+            formRef.current,
+            "Lp6zHOUyDd3S17ht-"
+          )
+          .then(
+            (result) => {},
+            (error) => {
+              console.log(error.text);
+            }
+          );
+        } catch (error) {
+          console.log(error.message);
+        }
+
     }
     e.target.reset();
+    activeModal()
   };
 
   const [formState, inputHandler] = useForm(
@@ -58,6 +72,8 @@ const ContactForm = () => {
   );
   return (
     <div className="contact__form">
+  <Modal message ={`Your message has been sent .
+    we will contact you a soon as possible`} onClick = {closeModal}  show = {showModal} />
       <form ref={formRef} onSubmit={sendHandler}>
         <Input
           onInput={inputHandler}

@@ -12,7 +12,7 @@ const Home = () => {
     <div className="home">
       <Header />
       <FixedImage />
-
+      
       <div className="main-title">
         <h1>Consulting today, strategizing for tomorrow</h1>
       </div>
