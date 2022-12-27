@@ -73,7 +73,7 @@ const ContactForm = () => {
   return (
     <div className="contact__form">
   <Modal message ={`Your message has been sent .
-    we will contact you a soon as possible`} onClick = {closeModal}  show = {true} />
+    we will contact you a soon as possible`} onClick = {closeModal}  show = {showModal} />
       <form ref={formRef} onSubmit={sendHandler}>
         <Input
           onInput={inputHandler}
