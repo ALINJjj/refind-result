@@ -1,0 +1,22 @@
+.c_info{
+        color: white;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        margin: 1.5rem;
+    }
+.c_info a {
+        text-decoration: none;
+        color: white;
+        height: 100%;
+}
+.c_info span {
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+}
+.info_icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}

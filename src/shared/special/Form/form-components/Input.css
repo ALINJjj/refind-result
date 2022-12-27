@@ -1,0 +1,54 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  font-family: "Questrial", sans-serif;
+  background: #000000;
+  margin-top: 4px;
+  width: 93%;
+}
+
+.input label {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: unset;
+  width: 8rem;
+  margin: 0.3rem;
+}
+
+.input input,
+.input textarea {
+  font-size: 1.2rem;
+  width: 60%;
+  border: none;
+  width: 100%;
+  color: #fff;
+  background: #000;
+  padding: 1rem;
+  border-bottom: 1px solid #fff  ;
+}
+
+input {
+  height: 1.3rem;
+}
+
+
+.input input:hover,
+.input textarea:hover,
+.input input:active input input:focus {
+border: 1px solid  white;
+}
+
+
+input::placeholder,
+textarea::placeholder {
+color: #fff;
+font-size: 1rem;}
+
+.input--invalid p {
+  color: red;
+}
+
+.input--invalid input,
+.input--invalid textarea {
+border: 1px solid red;
+background: #1a0707;}

@@ -1,0 +1,40 @@
+.quote {
+    height: 25rem;
+    width: 30%;
+    background: #191919;
+    padding: 1rem;
+    margin: 0.8rem;
+
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote__icon {
+    width: 3rem;
+    height: 6rem;
+    color: #fff;
+}
+
+.quote p{
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    padding: 1.3rem;
+    text-align: center;
+    font-weight: 100;
+    animation: transitionIn 3s  ;
+
+}
+
+
+
+@media (max-width: 1015px) {
+    .quote {
+        width: 70%;
+    }
+}

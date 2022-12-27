@@ -1,0 +1,28 @@
+.client {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: transitionIn 1s;
+}
+
+.client p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+    padding: 3rem;
+    width: 30%;
+    text-align: center;
+    font-weight: 100;
+    color: #fff;
+}
+
+
+@media (max-width: 804px) {
+    .client {
+        flex-direction: column-reverse;
+    }
+    .client p {
+        padding: 0;
+        width: 70%;
+    }
+}

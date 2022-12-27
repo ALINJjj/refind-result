@@ -1,0 +1,36 @@
+.button {
+	margin-top: 1rem;
+    background-color: #fff;
+	width: 100%;
+	text-align: center;
+	font-size: 1rem;
+	height: 3.5rem;	
+	
+	
+}
+
+.modal-button {
+	background: #000;
+	border: none;
+	color: #fff;
+	padding: 0.3rem 1.5rem;
+	font-weight: 100;
+	font-family: "Montserrat", sans-serif;
+
+}
+
+
+
+.modal-button:hover,
+.modal-button:active {
+		background: #4c4c4c ;
+}
+
+.button:hover {
+	background: #999999;
+}
+
+.button:disabled {
+	background: #fff;
+}
+

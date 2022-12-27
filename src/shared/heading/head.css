@@ -1,0 +1,11 @@
+.head {
+    
+    background: black;
+    min-height: 8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+

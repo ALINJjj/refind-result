@@ -1,0 +1,11 @@
+.book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    background: #fff;
+    width: 100%;
+}
+
+
+

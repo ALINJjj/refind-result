@@ -1,0 +1,107 @@
+.modal {
+  position: fixed;
+  top: calc(50% - 5rem);
+  left: calc(50% - 12rem);
+  background: white;
+  width: 24rem;
+  height: 10rem;
+  padding: 1rem;
+  z-index: 100;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+
+}
+
+.close{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+.message {
+
+width: 100%;
+height: 30%;
+padding-top: 1rem;
+text-align: center;
+color: black;
+font-size: 12px;
+font-family: "Montserrat", sans-serif;
+background: transparent;
+font-weight: 100;
+}
+
+.button__in__modal {
+  width: 100%;
+  height: 30%;
+  display: flex;justify-content: center;
+  align-items: center;
+}
+
+
+
+@media (min-width: 768px) {
+  /* .modal {
+    left: calc(50% - 20rem);
+  } */
+}
+
+.modal-enter {
+  transform: translateY(-10rem);
+  opacity: 0;
+}
+
+.modal-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.modal-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.modal-exit-active {
+  transform: translateY(-10rem);
+  opacity: 0;
+  transition: all 200ms;
+}
+
+@media (max-width: 768px) {
+  /* .modal {
+    align-items: center;
+    left: 10%;
+    width: 70%;
+  }
+  .modal__header {
+    padding-left: 20px;
+  } */
+}
+/* .modal-enter {
+  transform: translateY(-10rem);
+  opacity: 0;
+}
+
+.modal-enter-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.modal-exit {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.modal-exit-active {
+  transform: translateY(-10rem);
+  opacity: 0;
+  transition: all 200ms;
+} */

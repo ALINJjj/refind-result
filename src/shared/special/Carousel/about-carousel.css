@@ -1,0 +1,15 @@
+.about-carousel {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    animation: transitionIn 1s;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+

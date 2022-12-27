@@ -1,0 +1,27 @@
+.footer {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.footer a ,
+.footer p{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.social__media {
+    padding: 1rem;
+    
+}
+
+.back-white {
+    color: #fff;
+    margin: 1px 10px;
+}
+

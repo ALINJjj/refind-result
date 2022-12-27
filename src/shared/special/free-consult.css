@@ -1,0 +1,19 @@
+.free-consult {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  height: 45%;
+}
+
+.free-consult img {
+    width: 70%;
+    height: 100%;
+}
+
+.consult-info {
+    background: #000;
+    height: 100%;
+    width: 30%;
+
+}

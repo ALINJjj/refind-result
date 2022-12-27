@@ -1,0 +1,60 @@
+.about {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.ceo {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.ceo h1 {
+    color: #fff;
+    text-align: center;
+    line-height: 6rem;
+    letter-spacing: 0.1rem;
+    font-size: 4rem;
+    font-weight: 100;
+    font-family: "Questrial", sans-serif;
+}
+
+
+.ceo h4 {
+    font-style: italic;
+    font-size: 1rem;
+    font-weight: 100;
+    font-family: "Montserrat", sans-serif;
+    animation: transitionIn 1s;
+}
+
+.ceo p {
+    width: 100% !important ;
+}
+
+.about p {
+    text-align: center;
+    width: 60%;
+    font-size: 0.8rem;
+    font-weight: 100;
+    line-height: 1.5rem;
+    animation: transitionIn 1s;
+}   
+
+@media (max-width : 845px) {
+    .ceo {
+        width: 100%;
+    }
+    .about p {
+        width: 100%;
+    }
+}

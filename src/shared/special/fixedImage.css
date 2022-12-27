@@ -1,0 +1,27 @@
+.fixed-image {
+    width: 100rem;
+    position:absolute;
+    background-attachment: fixed ;
+    background-repeat: no-repeat;
+    top: 8rem;
+    right: 0;
+    width: 100%;
+    background-position-y:top;
+    z-index: -5;
+    height: 40rem;
+    opacity: 0.8;   
+    background-size: 100%;
+    background-image: url("https://static.wixstatic.com/media/4f8f5a805e504f0c95afe05b01d26d77.jpg/v1/fill/w_980,h_740,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/4f8f5a805e504f0c95afe05b01d26d77.jpg");
+    
+
+}
+
+@media (max-width:803px) {
+        .fixed-image {
+            position: static;
+            background-attachment: local;
+            height: 20rem;
+            background-size: cover;
+            
+        }
+}
