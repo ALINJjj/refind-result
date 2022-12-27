@@ -17,6 +17,7 @@ const ContactForm = () => {
     e.preventDefault();
 
     if (formState.formIsValid) {
+      console.log(formRef.current);
       emailjs
         .sendForm(
           "service_vrmp10w",
@@ -61,7 +62,7 @@ const ContactForm = () => {
         <Input
           onInput={inputHandler}
           id="name"
-          name="user_name"
+          name='user_name'
           label="Name *"
           placeholder="Enter your name "
           validator={VALIDATOR_REQUIRE()}
@@ -69,7 +70,7 @@ const ContactForm = () => {
         <Input
           onInput={inputHandler}
           id="email"
-          name="user_email"
+          name='user_email'
           label="Email *"
           placeholder="Enter your email "
           validator={VALIDATOR_EMAIL()}
@@ -77,7 +78,7 @@ const ContactForm = () => {
         <Input
           onInput={inputHandler}
           id="subject"
-          name="subject"
+          name='subject'
           label="Subject *"
           placeholder="type the subject "
           validator={VALIDATOR_REQUIRE()}
@@ -85,7 +86,7 @@ const ContactForm = () => {
         <Input
           onInput={inputHandler}
           id="message"
-          name="message"
+          name='user_message'
           textAria
           label="Message *"
           placeholder="Type your message here ...   "

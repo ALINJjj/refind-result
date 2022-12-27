@@ -51,7 +51,6 @@ const Input = (props) => {
         !inputState.isValid && inputState.isTouched && "input--invalid"
       }`}>
         <label
-          name = {props.name}
           htmlFor="textaria"
           value={props.label}
           onChange={inputChangeHandler}
@@ -61,6 +60,8 @@ const Input = (props) => {
         >{props.label}</label>
         <textarea
           id="textaria"
+          name = {props.name}
+
           placeholder={props.placeholder}
           value={props.value}
           onChange={inputChangeHandler}
@@ -81,10 +82,11 @@ const Input = (props) => {
         htmlFor="input"
         className={` ${props.labelClassName ? props.labelClassName : ""}`}
       >
-        {props.label} :{" "}
+        {props.label}
       </label>
       <input
         onChange={inputChangeHandler}
+        name = {props.name}
         onBlur={touchHandler}
         value={props.value}
         placeholder = {props.placeholder}
