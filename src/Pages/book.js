@@ -1,10 +1,9 @@
 import "./book.css";
 import Modal from "../shared/UIElements/Modal";
-import { CONSULTING__SRC } from "../links";
 import { useState } from "react";
-import FreeConsult from "../shared/special/free-consult";
+import BookButton from "../shared/special/book-button";
 const Book = () => {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
 
   const enterModal = () => {
     setShowModal(true);
@@ -26,8 +25,12 @@ const Book = () => {
         />
       )}
       <div className="book">
-        <FreeConsult />
-      </div>
+          <h1>CONSULTING BOOKING <br/> NOW</h1>
+          <div className="book__buttons">
+            <BookButton onClick = {enterModal} className="recommended">Free 1 houre</BookButton>
+            <BookButton onClick = {enterModal}>Fully Consulting session</BookButton>
+          </div>
+        </div>
     </div>
   );
 };

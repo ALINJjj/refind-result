@@ -5,7 +5,7 @@
 }
 
 .for__client {
-    border-radius: 50%;
+    border-raius: 50%;
     width: 30%;
     padding: 1rem;
 }
@@ -16,8 +16,15 @@
     object-fit:cover;
 }
 
+
+@media (max-width : 1000px) {
+    .for__client {
+        width: 40%;
+    }
+}
 @media (max-width: 804px) {
     .for__client {
-        width: 45%;
-    }
+        width: 50%;
+    
+}
 }

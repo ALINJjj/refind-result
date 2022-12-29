@@ -10,7 +10,7 @@
     z-index: -5;
     height: 40rem;
     opacity: 0.8;   
-    background-size: 100%;
+    background-size: cover;
     background-image: url("https://static.wixstatic.com/media/4f8f5a805e504f0c95afe05b01d26d77.jpg/v1/fill/w_980,h_740,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/4f8f5a805e504f0c95afe05b01d26d77.jpg");
     
 

@@ -1,6 +1,6 @@
 import "./fixedImage.css"
 const FixedImage = (props) => {
 
-    return <img className="fixed-image" src= {props.image} alt={props.alt}/>
+    return <div className="fixed-image"  />
 };
 export default FixedImage

@@ -1,12 +1,11 @@
 .modal {
   position: fixed;
   top: calc(50% - 5rem);
-  left: calc(50% - 12rem);
   background: white;
-  width: 24rem;
-  height: 10rem;
+  width: 50%;
+  height: 30%;
   padding: 1rem;
-  z-index: 100;
+  box-shadow: 1px 1px 5px #888888;
 }
 
 .container {
@@ -45,11 +44,14 @@ font-weight: 100;
 }
 
 
-
+@media (min-height : 1024px)  {
+        .modal {
+          height: 15%;
+        }
+}
 @media (max-width: 768px) {
    .modal {
     width: 80% ;
-    left: 4%
   } 
 }
 

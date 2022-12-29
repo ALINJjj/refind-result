@@ -29,13 +29,11 @@ const ModalComponent = (props) => {
 
 const Modal = (props) => {
   return <React.Fragment>
-    {props.show && <BackDrop onCancel={props.onCancel}/>}
     <CSSTransition
     in = {props.show}
     mountOnEnter
     unmountOnExit
     timeout={200}
-    classNames="modal"
     >
         <ModalComponent {...props}/>
     </CSSTransition>

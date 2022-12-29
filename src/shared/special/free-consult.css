@@ -1,19 +1,4 @@
 .free-consult {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 60%;
-  height: 45%;
-}
-
-.free-consult img {
-    width: 70%;
-    height: 100%;
-}
-
-.consult-info {
-    background: #000;
-    height: 100%;
-    width: 30%;
-
+  width: 100%;
+    background: url("https://wallpaperaccess.com/full/1393565.jpg");
 }
