@@ -45,8 +45,8 @@
 
 .location {
   color: #fff;
-  width: 2rem;
-  height: 2.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 @media (max-width: 803px) {

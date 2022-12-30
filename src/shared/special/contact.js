@@ -14,10 +14,10 @@ const Contact = () => {
       <div className="information">
         <h2>Contact Us</h2>
         <ContactInfo type = "email" text = "contact@refinedresults.ca"/>
-        <ContactInfo type = "phone" text = "940342234"/>
+        <ContactInfo type = "phone" text = "(833) 773-3463"/>
           <a href={MAP__SRC} target="_blank" className="location__link">
-          <FontAwesomeIcon className="location" icon={faMapLocation} />
-          <p>location</p>
+          <FontAwesomeIcon className="location" icon={faLocationPin} />
+          <p>Location</p>
           </a>
       </div>
       <ContactForm/>

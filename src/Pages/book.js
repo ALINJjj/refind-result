@@ -17,8 +17,7 @@ const Book = () => {
     <div className="book ">
       {showModal && (
         <Modal
-          message="  sorry this service is note alowed for online bookings
-        please contact aus for more information"
+          message="Oops! This service is currently unavailable, please contact us by email/phonenumber for further information"
           onClick={closeModal}
           show={true}
           info="remove"
@@ -27,8 +26,8 @@ const Book = () => {
       <div className="book">
           <h1>CONSULTING BOOKING <br/> NOW</h1>
           <div className="book__buttons">
-            <BookButton onClick = {enterModal} className="recommended">Free 1 houre</BookButton>
-            <BookButton onClick = {enterModal}>Fully Consulting session</BookButton>
+            <BookButton onClick = {enterModal} className="recommended">free 1 hour session</BookButton>
+            <BookButton onClick = {enterModal}>book a custom session</BookButton>
           </div>
         </div>
     </div>
