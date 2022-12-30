@@ -6,7 +6,8 @@ export const HOME__SRC__2 =
   "https://www.theforage.com/blog/wp-content/uploads/2022/09/Depositphotos_44798801_L-1024x682.jpg";
 export const MAP__SRC = "https://goo.gl/maps/qBJe1soTTk7YRuVDA";
 
-export const CONSULTING__SRC = "https://static.wixstatic.com/media/nsplsh_5454504d704c6c5f326c63~mv2.jpg/v1/fill/w_832,h_394,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/nsplsh_5454504d704c6c5f326c63~mv2.jpg"
+export const CONSULTING__SRC =
+  "https://static.wixstatic.com/media/nsplsh_5454504d704c6c5f326c63~mv2.jpg/v1/fill/w_832,h_394,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/nsplsh_5454504d704c6c5f326c63~mv2.jpg";
 
 export const CLIENT__DATA__TO__SHOW = [
   {
@@ -76,8 +77,24 @@ export const ABOUT__SRC = [
   "https://static.wixstatic.com/media/11062b_254deac88da14c43a32af02941ed7b30~mv2.jpeg/v1/fill/w_733,h_489,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Conference.jpeg",
 
   "https://static.wixstatic.com/media/11062b_e08c89369c6345c9a7698e7ca1d32ea3~mv2.jpeg/v1/fill/w_735,h_393,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Meeting.jpeg",
-  "https://static.wixstatic.com/media/11062b_da48578d0f7041df82d0ba0ee3a1f7f2~mv2.jpeg/v1/fill/w_733,h_489,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Conversation%20Between%20Colleagues.jpeg"
-
+  "https://static.wixstatic.com/media/11062b_da48578d0f7041df82d0ba0ee3a1f7f2~mv2.jpeg/v1/fill/w_733,h_489,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Conversation%20Between%20Colleagues.jpeg",
 ];
 
-
+export const QUOTE = [
+  {
+    id: 1,
+    quote: `"The team at Refined Results was very helpful with modifying our methods of communication & business conduct to maneuver around the pandemic."`,
+    author : "Pronto Movers"
+  },
+  {
+    id: 2,
+    quote: `
+    "Refined Results always exceeded expectations; timeframes, earlier than expected; detailed oriented and they have always valued quality over quantity."`,
+    author : "Zengon Designs"
+  },
+  {
+    id: 3,
+    quote: `"The team at Refined Results valued every project; big or small they always delivered on time and represented our group with the level of professionalism that is not so common."`,
+    author : "MK Real Estate Group"
+  },
+];

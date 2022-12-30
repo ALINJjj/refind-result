@@ -1,5 +1,5 @@
 import React from "react";
-import { HOME__SRC, MAP__SRC } from "../links";
+import { HOME__SRC, MAP__SRC, QUOTE } from "../links";
 import Footer from "../shared/footer/footer";
 import Header from "../shared/heading/header";
 import Contact from "../shared/special/contact";
@@ -20,9 +20,7 @@ const Home = () => {
         <h2>Our Testimonials Do the Talking</h2>
         <h6>"You can quantify many things; quality is not one."</h6>
         <div className="testomonial__list">
-          <Quote />
-          <Quote />
-          <Quote />
+        {QUOTE.map(data => <Quote data = {data} />)}
         </div>
       </div>
       <div>

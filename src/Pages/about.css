@@ -10,7 +10,7 @@
 .ceo {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 60%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -31,7 +31,7 @@
 
 .ceo h4 {
     font-style: italic;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 100;
     font-family: "Montserrat", sans-serif;
     animation: transitionIn 1s;
@@ -39,6 +39,8 @@
 
 .ceo p {
     width: 100% !important ;
+    font-weight: 100 !important;
+    font-size: 1rem !important;
 }
 
 .about p {

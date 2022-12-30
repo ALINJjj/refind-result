@@ -14,8 +14,9 @@
 
 
 .recommended{
-    background: #999999;
-    color: #fff
+    background: #fff;
+    color: #000;
+    border: 2px solid #fff
 }
 
 @media (max-width: 845px) {
