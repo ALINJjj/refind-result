@@ -34,7 +34,7 @@ const Header = () => {
         <div className="logo">
           <Avatar src={LOGO__SRC} alt="logo" />
         </div>
-        <h3>Refind Results</h3>
+        <h3>Refined Results</h3>
       </div>
       <NavLinks class="nav" />
       <div
