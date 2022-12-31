@@ -30,6 +30,7 @@ const Header = () => {
   };
   return (
     <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <div className="title">
         <div className="logo">
           <Avatar src={LOGO__SRC} alt="logo" />
