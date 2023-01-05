@@ -19,7 +19,7 @@ const About = () => {
     
       <div className="about">
         <h2>Who We Are</h2>
-        <div data-aos="fade-up" data-aos-once="true" className="center">
+        <div data-aos="fade" data-aos-once="true" className="center">
         <p>
           Refined Results was founded in 2012 with a single mission: to create a
           web of clients that spans across the globe. We believe building
@@ -32,21 +32,23 @@ const About = () => {
         </div>
        
       </div>
+      <div data-aos="fade" data-aos-once="true">
       <Carousel about />
+      </div>
 
       <div className="about">
         <div className="ceo">
-          <div data-aos="fade-up">
+          <div data-aos="fade">
             <h1>a word from our Director</h1>
           </div>
 
-          <div data-aos="fade-up" data-aos-delay = "600"	data-aos-once="true">   <h4>
+          <div data-aos="fade" data-aos-delay = "600"	data-aos-once="true">   <h4>
             “Life is a storm, my young friend. You will bask in the sunlight one
             moment, be shattered on the rocks the next. What makes you a man is
             what you do when that storm comes.”
           </h4></div>
        
-          <div data-aos="fade-up" data-aos-delay="300" data-aos-once="true">
+          <div data-aos="fade" data-aos-delay="300" data-aos-once="true">
           <p>
             The power of language is just as important as presentation; they go
             hand in hand. There are countless ways to approach people of

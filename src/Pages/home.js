@@ -13,7 +13,7 @@ const Home = () => {
       <Header />
       <FixedImage />
       
-      <div className="main-title"   data-aos="fade-up" data-aos-once="true">
+      <div className="main-title"   data-aos="fade" data-aos-once="true">
       
         <h1>Consulting today, strategizing for tomorrow</h1>
       </div>

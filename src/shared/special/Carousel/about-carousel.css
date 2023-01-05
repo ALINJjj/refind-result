@@ -1,11 +1,9 @@
 .about-carousel {
-    height: auto;
-    width: auto;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     object-fit: cover;
-    animation: transitionIn 1s;
 }
 
 h3 {

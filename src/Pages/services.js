@@ -12,9 +12,9 @@ const Services = () => {
       {SERVICES__DATA.map((data, index) => {
         if (width > 845) {
           if (index % 2 !== 0) {
-            return <Service animation key={data.id} data={data} right />;
+            return <Service  key={data.id} data={data} right />;
           } else {
-            return <Service animation key={data.id} data={data} />;
+            return <Service  key={data.id} data={data} />;
           }
         }
         return <Service key={data.id} data = {data} />
