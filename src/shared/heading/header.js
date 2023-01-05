@@ -1,9 +1,10 @@
 import { useState } from "react";
-import { LOGO__SRC } from "../../links";
+import { COMPAGNIE_NAME, LOGO__SRC } from "../../links";
 import Avatar from "../special/Avatar";
 import SideDrawer from "../UIElements/SideDrawer";
 import Head from "./head";
 import "./header.css";
+import LOGO_ASSET from "../../assets/Logo.svg"
 import NavLinks from "./nav-links";
 import AnimatedButton from "../UIElements/animated-button";
 const Header = () => {
@@ -32,10 +33,10 @@ const Header = () => {
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
       <div className="title">
-        <div className="logo">
-          <Avatar src={LOGO__SRC} alt="logo" />
-        </div>
-        <h3>Refined Results</h3>
+        <a href="/" className="logo">
+          <Avatar className = "logo__image" src={LOGO_ASSET} alt="logo" />
+        </a>
+        {/* <h3>{COMPAGNIE_NAME}</h3> */}
       </div>
       <NavLinks class="nav" />
       <div

@@ -98,3 +98,8 @@ export const QUOTE = [
     author : "MK Real Estate Group"
   },
 ];
+
+export const COMPAGNIE_NAME = 'Valcion';
+export const YEAR = new Date().getFullYear();
+
+

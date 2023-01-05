@@ -13,12 +13,13 @@ const Home = () => {
       <Header />
       <FixedImage />
       
-      <div className="main-title">
+      <div className="main-title"   data-aos="fade-up" data-aos-once="true">
+      
         <h1>Consulting today, strategizing for tomorrow</h1>
       </div>
       <div className="testo">
         <h2>Our Testimonials Do the Talking</h2>
-        <h6>"You can quantify many things; quality is not one."</h6>
+        <h6   data-aos="fade" 	data-aos-once="true">"You can quantify many things; quality is not one."</h6>
         <div className="testomonial__list">
         {QUOTE.map(data => <Quote data = {data} />)}
         </div>

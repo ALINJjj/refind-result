@@ -24,11 +24,22 @@
     font-style: italic;
     line-height: 1.2rem;
     font-size: 1rem;
-    padding: 1.3rem;
+    padding: 1rem;
     text-align: center;
     font-weight: 100;
-    animation: transitionIn 3s  ;
 
+}
+
+@media only screen and (max-width: 1015px) and (min-width: 745px)  {
+    .quote p{
+            padding: 0;
+            margin: 0;
+            line-height: 1;
+    }
+    
+    .quote__icon {
+        height: 3.5rem;
+    }
 }
 
 
@@ -36,5 +47,9 @@
 @media (max-width: 1015px) {
     .quote {
         width: 70%;
+    }
+
+    .quote p {
+        padding: 2rem;
     }
 }

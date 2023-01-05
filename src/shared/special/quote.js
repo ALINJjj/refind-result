@@ -8,10 +8,10 @@ const Quote = ({data}) => {
       <div className="icon">
         <FontAwesomeIcon className="quote__icon" icon={faQuoteRight} />
       </div>
-      <p>
+      <p data-aos="fade-up" 	data-aos-once="true">
           {data.quote}
         </p>
-      <h5>{data.author}</h5>
+      <h5 data-aos="fade-up" 	data-aos-once="true">{data.author}</h5>
      
     </div>
   );

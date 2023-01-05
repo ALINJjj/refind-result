@@ -16,14 +16,12 @@
   letter-spacing: 0.1rem;
   font-size: 32px;
   font-family: "Questrial", sans-serif;
-  animation: transitionIn 1s;
 }
 
 .main-title h1 {
   width: 40rem;
   font-weight: 400;
   font-size: 4.5 rem;
-  animation: transitionIn 1s;
 }
 
 .testo {

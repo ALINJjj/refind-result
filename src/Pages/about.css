@@ -5,23 +5,24 @@
     justify-content: center;
     align-items: center;
     padding: 1rem;
+    text-align: center;
 }
 
 .ceo {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 80%;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align:justify ;
 }
 
 
 
 .ceo h1 {
     color: #fff;
-    text-align: center;
     line-height: 6rem;
+    text-align: center;
     letter-spacing: 0.1rem;
     font-size: 4rem;
     font-weight: 100;
@@ -34,7 +35,6 @@
     font-size: 1.3rem;
     font-weight: 100;
     font-family: "Montserrat", sans-serif;
-    animation: transitionIn 1s;
 }
 
 .ceo p {
@@ -44,17 +44,16 @@
 }
 
 .about p {
-    text-align: center;
+    
     width: 60%;
     font-size: 0.8rem;
     font-weight: 100;
     line-height: 1.5rem;
-    animation: transitionIn 1s;
 }   
 
 @media (max-width : 845px) {
     .ceo {
-        width: 100%;
+        width: 95%;
     }
     .about p {
         width: 100%;

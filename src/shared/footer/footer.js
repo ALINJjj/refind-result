@@ -6,6 +6,7 @@ import {
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-router-dom";
+import { COMPAGNIE_NAME, YEAR } from "../../links";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -24,7 +25,7 @@ const Footer = () => {
           <FontAwesomeIcon className="back-white" icon={faLinkedinIn} />
         </a>
       </div>
-      <p>©2022 by Refined Results.</p>
+      <p>{YEAR} by {COMPAGNIE_NAME}.</p>
     </footer>
   );
 };

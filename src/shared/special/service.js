@@ -3,8 +3,11 @@ import Avatar from "./Avatar";
 const Service = (props) => {
   const {data} = props;
   const right = !!props.right;
+  const animation = !! props.animation
+  console.log(animation);
+
   return (
-    <div className="service">
+    <div className="service" data-aos={ animation && `fade-up-${right ? 'right' : 'left'}`} >
       {!right && data && (
         <Avatar
           className="image"

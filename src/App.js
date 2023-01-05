@@ -9,7 +9,13 @@ import Carousel from "./shared/special/Carousel/Carousel";
 import Services from "./Pages/services";
 import About from "./Pages/about";
 import Book from "./Pages/book";
+import { useEffect } from "react";
+import Aos from "aos";
 function App() {
+
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div className="App">
       <BrowserRouter>
