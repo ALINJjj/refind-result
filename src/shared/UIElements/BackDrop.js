@@ -3,7 +3,7 @@ import './BackDrop.css'
 const BackDrop = (props) => {
 
     return  ReactDOM.createPortal(
-    <div className="backdrop" onClick={props.onCancel}>
+    <div className="backdrop" onClick={props.onCLick}>
 
     </div>,
     document.getElementById('backdrop'))

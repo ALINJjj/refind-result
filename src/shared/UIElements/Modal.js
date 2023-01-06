@@ -14,11 +14,11 @@ const ModalComponent = (props) => {
 
   const content = (
     <React.Fragment>
-      <BackDrop show={props.show} />
+      <BackDrop show={props.show} onClick = {props.onClick} />
       <div className={order ? "order-modal" : "modal "}>
         <div className="container">
           <div className="close">
-            <FontAwesomeIcon icon={faXmark} onClick={props.onClick} />
+            <FontAwesomeIcon className="x-button" icon={faXmark} onClick={props.onClick} />
           </div>
           {!order ? (
             <>
