@@ -33,7 +33,7 @@ const ContactForm = (props) => {
     activeModal();
   };
 
-  const [formState, setFormData, inputHandler] = useForm(
+  const [formState, inputHandler] = useForm(
     {
       name: {
         value: "",

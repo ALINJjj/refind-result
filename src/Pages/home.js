@@ -21,7 +21,7 @@ const Home = () => {
         <h2>Our Testimonials Do the Talking</h2>
         <h6   data-aos="fade" 	data-aos-once="true">"You can quantify many things; quality is not one."</h6>
         <div className="testomonial__list">
-        {QUOTE.map(data => <Quote data = {data} />)}
+        {QUOTE.map(data => <Quote key={data.id}  data = {data} />)}
         </div>
       </div>
       <div>
