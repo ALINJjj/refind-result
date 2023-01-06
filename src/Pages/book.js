@@ -4,7 +4,7 @@ import { useState } from "react";
 import BookButton from "../shared/special/book-button";
 import useForm from "../hooks/form-hook";
 const Book = () => {
-  const [showModal, setShowModal] = useState(true);
+  const [showModal, setShowModal] = useState(false);
   const [showAfterModal, setShowAfterModal] = useState(false);
 
   const [Type, setType] = useState("");
@@ -68,7 +68,7 @@ const Book = () => {
           type={Type}
           message="Oops! This service is currently unavailable, please contact us by email/phonenumber for further information"
           onClick={closeModal}
-          show={true}
+          show={showModal}
           info="remove"
         />
       )}
