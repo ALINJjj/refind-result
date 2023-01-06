@@ -2,7 +2,7 @@ import "./contact.css";
 import ContactInfo from "../UIElements/contact-info";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLocationPin } from "@fortawesome/free-solid-svg-icons";
-import { MAP__SRC } from "../../links";
+import { CONTACT_TEMPLATE, MAP__SRC } from "../../links";
 import { faMapLocation } from "@fortawesome/free-solid-svg-icons";
 
 import ContactForm from "./Form/form";
@@ -20,7 +20,7 @@ const Contact = () => {
           <p>Location</p>
           </a>
       </div>
-      <ContactForm/>
+      <ContactForm templateID = {CONTACT_TEMPLATE}/>
     </div>
   );
 };

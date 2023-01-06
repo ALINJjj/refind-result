@@ -2,8 +2,7 @@ import Input from "./form-components/Input";
 import "./form-components/Button";
 import "./form.css";
 import Button from "./form-components/Button";
-import { useState } from "react";
- 
+import { Navigate } from "react-router-dom";
 import {
   VALIDATOR_EMAIL,
   VALIDATOR_MINLENGTH,
@@ -11,39 +10,28 @@ import {
 } from "../../../validator/validators";
 import useForm from "../../../hooks/form-hook";
 import { useRef } from "react";
-import Modal from "../../UIElements/Modal";
 import { sendEmail } from "../../../hooks/emailJS";
-import { CONTACT_TEMPLATE } from "../../../links";
-const ContactForm = (props) => {
-  const [showModal, setShowModal] = useState(false);
-  const activeModal = () => {
-    setShowModal(true);
-  };
-  const closeModal = () => {
-    setShowModal(false);
-  };
+import { ORDER_TEMLATE } from "../../../links";
+const OrderForm = (props) => {
+ 
   const formRef = useRef();
   const sendHandler = (e) => {
     e.preventDefault();
-
     if (formState.formIsValid) {
-      sendEmail(CONTACT_TEMPLATE,formRef.current)
+          sendEmail(ORDER_TEMLATE, formRef.current)
     }
     e.target.reset();
-    activeModal();
+    props.close();
+    props.openAfterModal()
   };
 
-  const [formState, setFormData, inputHandler] = useForm(
+  const [formState, inputHandler] = useForm(
     {
       name: {
         value: "",
         isValid: false,
       },
       email: {
-        value: "",
-        isValid: false,
-      },
-      subject: {
         value: "",
         isValid: false,
       },
@@ -54,15 +42,10 @@ const ContactForm = (props) => {
     },
     false
   );
-  
+
   return (
     <div className="contact__form">
-      <Modal
-        message={`Your message has been sent .
-    we will contact you a soon as possible`}
-        onClick={closeModal}
-        show={showModal}
-      />
+   
       <form ref={formRef} onSubmit={sendHandler}>
         <Input
           onInput={inputHandler}
@@ -72,6 +55,7 @@ const ContactForm = (props) => {
           placeholder="Enter your name "
           validator={VALIDATOR_REQUIRE()}
         />
+        <input onChange={()=>{}}  name="type" value={props.type} style={{display: "none"}} />
         <Input
           onInput={inputHandler}
           id="email"
@@ -80,33 +64,22 @@ const ContactForm = (props) => {
           placeholder="Enter your email "
           validator={VALIDATOR_EMAIL()}
         />
-      
 
-          <Input
-            onInput={inputHandler}
-            id="subject"
-            name="subject"
-            label="Subject *"
-            placeholder="type the subject "
-            validator={VALIDATOR_REQUIRE()}
-          />
-        
         <Input
           onInput={inputHandler}
           id="message"
-          name="user_message"
+          name="about__message"
           textAria
-          label="Message *"
-          placeholder="Type your message here ... "
-          
+          label="About you *"
+          placeholder="Type Here About you ..."
           validator={VALIDATOR_MINLENGTH(5)}
         />
 
         <Button type="submit" isValid={!formState.formIsValid}>
-         Submit
+         Book
         </Button>
       </form>
     </div>
   );
 };
-export default ContactForm;
+export default OrderForm;

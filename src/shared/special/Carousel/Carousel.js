@@ -33,7 +33,7 @@ const Carousel = (props) => {
           {CLIENT__DATA__TO__SHOW.map((data) => (
             <div>
               <h3>
-                <CarouselClient data={data} />
+                <CarouselClient key={data.id}  data={data} />
               </h3>
             </div>
           ))}
@@ -41,10 +41,10 @@ const Carousel = (props) => {
       )}
       {props.about && (
         <Slider {...settings_2}>
-          {ABOUT__SRC.map((image) => (
+          {ABOUT__SRC.map((image,index) => (
             <div>
               <h3>
-                <AboutCarousel image={image} />
+                <AboutCarousel key={index} image={image} />
               </h3>
             </div>
           ))}

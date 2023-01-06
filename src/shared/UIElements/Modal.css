@@ -6,13 +6,28 @@
   height: 30%;
   padding: 1rem;
   box-shadow: 1px 1px 5px #888888;
+  z-index: 20;
+
+}
+
+.order-modal {
+  position: absolute;
+  top: 10%;
+  background: #000;
+  width: 50%;
+  padding: 1rem;
+  z-index: 20;
+  box-shadow: 1px 1px 5px #888888;
+}
+
+.order-modal .close{
+  color: #fff;
 }
 
 .container {
   display: block;
   width: 100%;
   height: 100%;
-  background: #fff;
 
 }
 
@@ -49,11 +64,18 @@ font-weight: 200;
         .modal {
           height: 15%;
         }
+        
+        
 }
-@media (max-width: 768px) {
+@media (max-width: 850px) {
    .modal {
     width: 80% ;
   } 
+  .order-modal{
+    width: 80%;
+    top: 15%;
+    height:fit-content;
+  }
 }
 
 .modal-enter {

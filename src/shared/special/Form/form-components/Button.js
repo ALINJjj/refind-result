@@ -1,8 +1,6 @@
 import "./Button.css";
 const Button = (props) => {
  
-
-
   return (
     <button
       className={props.className ? props.className : 'button'}

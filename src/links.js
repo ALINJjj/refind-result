@@ -11,19 +11,20 @@ export const CONSULTING__SRC =
 
 export const CLIENT__DATA__TO__SHOW = [
   {
+    id :1,
     image:
       "https://static.wixstatic.com/media/11062b_f724f7850b194e0989f93850f2594d63~mv2.jpg/v1/crop/x_1092,y_187,w_2580,h_2580/fill/w_621,h_621,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Business%20Agreement%20on%20the%20Terrace.jpg",
     text: `
         At Refined Results our borders have no limits; we operate globally and at every level.`,
   },
-  {
+  {id :2,
     image:
       "https://static.wixstatic.com/media/11062b_36d086b1dff4487f9b1191ac4c04f6c0~mv2.jpg/v1/crop/x_1316,y_399,w_2218,h_2218/fill/w_414,h_414,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/At%20the%20Meeting%20Room.jpg",
     text: `At Refined Results our goal is to build quality relationships that will
         prove to be mutually beneficial. We invite you to be the newest addition
         to our ever-growing web of communication.`,
   },
-  {
+  {id :3,
     image:
       "https://static.wixstatic.com/media/b08fc97db8934f8196371bbbeda5c445.jpg/v1/crop/x_2289,y_1173,w_2023,h_2023/fill/w_414,h_414,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Meeting.jpg",
     text: `
@@ -71,6 +72,7 @@ export const SERVICES__DATA = [
 ];
 
 export const ABOUT__SRC = [
+  
   "https://static.wixstatic.com/media/54f3100f2aaa441f80eaab12cc44c8a9.jpg/v1/fill/w_734,h_520,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Getting%20Coffee.jpg",
   "https://static.wixstatic.com/media/11062b_e08c89369c6345c9a7698e7ca1d32ea3~mv2.jpeg/v1/fill/w_735,h_393,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Meeting.jpeg",
   "https://static.wixstatic.com/media/389edc41041f426ab69de13eecdc4d0a.jpg/v1/fill/w_734,h_412,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Meeting.jpg",
@@ -101,5 +103,8 @@ export const QUOTE = [
 
 export const COMPAGNIE_NAME = 'Valcion';
 export const YEAR = new Date().getFullYear();
+
+export const ORDER_TEMLATE = "template_ygavboc"
+export const CONTACT_TEMPLATE = "template_0dqx5gm"
 
 
