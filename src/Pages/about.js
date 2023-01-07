@@ -38,7 +38,7 @@ const About = () => {
 
       <div className="about">
         <div className="ceo">
-          <div data-aos="fade">
+          <div data-aos="fade" data-aos-once="true">
             <h1>a word from our Director</h1>
           </div>
 

@@ -73,13 +73,13 @@ export const SERVICES__DATA = [
 
 export const ABOUT__SRC = [
   
-  "https://static.wixstatic.com/media/54f3100f2aaa441f80eaab12cc44c8a9.jpg/v1/fill/w_734,h_520,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Getting%20Coffee.jpg",
-  "https://static.wixstatic.com/media/11062b_e08c89369c6345c9a7698e7ca1d32ea3~mv2.jpeg/v1/fill/w_735,h_393,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Meeting.jpeg",
-  "https://static.wixstatic.com/media/389edc41041f426ab69de13eecdc4d0a.jpg/v1/fill/w_734,h_412,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Meeting.jpg",
-  "https://static.wixstatic.com/media/11062b_254deac88da14c43a32af02941ed7b30~mv2.jpeg/v1/fill/w_733,h_489,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Conference.jpeg",
+ { id : 1,image:"https://static.wixstatic.com/media/54f3100f2aaa441f80eaab12cc44c8a9.jpg/v1/fill/w_734,h_520,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Getting%20Coffee.jpg"},
+  {id:2,image:"https://static.wixstatic.com/media/11062b_e08c89369c6345c9a7698e7ca1d32ea3~mv2.jpeg/v1/fill/w_735,h_393,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Meeting.jpeg"},
+ { id:3,image:"https://static.wixstatic.com/media/389edc41041f426ab69de13eecdc4d0a.jpg/v1/fill/w_734,h_412,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Meeting.jpg"},
+  {id:4,image:"https://static.wixstatic.com/media/11062b_254deac88da14c43a32af02941ed7b30~mv2.jpeg/v1/fill/w_733,h_489,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Conference.jpeg"},
 
-  "https://static.wixstatic.com/media/11062b_e08c89369c6345c9a7698e7ca1d32ea3~mv2.jpeg/v1/fill/w_735,h_393,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Meeting.jpeg",
-  "https://static.wixstatic.com/media/11062b_da48578d0f7041df82d0ba0ee3a1f7f2~mv2.jpeg/v1/fill/w_733,h_489,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Conversation%20Between%20Colleagues.jpeg",
+  {id:5,image:"https://static.wixstatic.com/media/11062b_e08c89369c6345c9a7698e7ca1d32ea3~mv2.jpeg/v1/fill/w_735,h_393,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Meeting.jpeg"},
+  {id:6,image:"https://static.wixstatic.com/media/11062b_da48578d0f7041df82d0ba0ee3a1f7f2~mv2.jpeg/v1/fill/w_733,h_489,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Conversation%20Between%20Colleagues.jpeg"},
 ];
 
 export const QUOTE = [
