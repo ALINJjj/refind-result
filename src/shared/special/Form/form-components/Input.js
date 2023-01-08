@@ -1,4 +1,3 @@
-import { SwitchTransition } from "react-transition-group";
 import { validate } from "../../../../validator/validators";
 import { useEffect, useReducer } from "react";
 import "./Input.css";

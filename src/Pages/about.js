@@ -39,7 +39,7 @@ const About = () => {
       <div className="about">
         <div className="ceo">
           <div data-aos="fade" data-aos-once="true">
-            <h1>a word from our Director</h1>
+            <h1>A Word From Our Director</h1>
           </div>
 
           <div data-aos="fade" data-aos-delay = "600"	data-aos-once="true">   <h4>

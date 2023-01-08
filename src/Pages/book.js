@@ -9,8 +9,8 @@ const Book = () => {
 
   const [Type, setType] = useState("");
   const [showData, setShowData] = useState({
-    free: "free 1 hour session",
-    paid: "book a custom session",
+    free: "Free Consultation",
+    paid: "Paid Consultation",
   });
 
   const activeShowAfterModal = () => {
@@ -22,7 +22,7 @@ const Book = () => {
   const freeHoverstart = () => {
     setShowData({
       ...showData,
-      free: "Free Consultation",
+      free: "Book now",
     });
   };
   const paidHoverstart = () => {
@@ -35,13 +35,13 @@ const Book = () => {
   const paidHoverEnd = () => {
     setShowData({
       ...showData,
-      paid: "book a custom session",
+      paid: "Paid Consultation",
     });
   };
   const freeHoverEnd = () => {
     setShowData({
       ...showData,
-      free: "free 1 hour session",
+      free: "Free Consultation",
     });
   };
   const enterFreeModal = () => {

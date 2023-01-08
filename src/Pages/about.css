@@ -46,8 +46,8 @@
 .about p {
     
     width: 60%;
-    font-size: 0.8rem;
-    font-weight: 100;
+    font-size: 1rem;
+    font-weight: 200;
     line-height: 1.5rem;
 }   
 
@@ -57,5 +57,9 @@
     }
     .about p {
         width: 100%;
+    }
+    .ceo > div > h1{
+        font-size: 2rem;
+        line-height: normal;
     }
 }

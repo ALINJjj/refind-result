@@ -20,7 +20,7 @@ const Carousel = (props) => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    adaptiveHeight: true,
+    adaptiveHeight: false,
     arrows: false,
   };
   return (

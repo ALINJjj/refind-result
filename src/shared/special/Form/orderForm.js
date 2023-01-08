@@ -2,7 +2,6 @@ import Input from "./form-components/Input";
 import "./form-components/Button";
 import "./form.css";
 import Button from "./form-components/Button";
-import { Navigate } from "react-router-dom";
 import {
   VALIDATOR_EMAIL,
   VALIDATOR_MINLENGTH,
@@ -51,7 +50,7 @@ const OrderForm = (props) => {
           onInput={inputHandler}
           id="name"
           name="user_name"
-          label=" name *"
+          label="Name *"
           placeholder="Enter your name "
           validator={VALIDATOR_REQUIRE()}
         />
@@ -70,9 +69,9 @@ const OrderForm = (props) => {
           id="message"
           name="about__message"
           textAria
-          label="About you *"
-          placeholder="Type Here About you ..."
-          validator={VALIDATOR_MINLENGTH(5)}
+          label="Enquiries *"
+          placeholder="Explain Briefly What Your Needs Are ..."
+          validator={VALIDATOR_MINLENGTH(10)}
         />
 
         <Button type="submit" isValid={!formState.formIsValid}>

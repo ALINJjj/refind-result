@@ -13,7 +13,8 @@
 .about-image {
     border-radius: 0;
     width: 100%;
-    object-fit:cover;
+    object-fit: cover;
+    height: 30rem;
 }
 
 
@@ -22,9 +23,10 @@
         width: 40%;
     }
 }
+
 @media (max-width: 804px) {
     .for__client {
-        width: 50%;
-    
-}
+        width: 60%;
+
+    }
 }
