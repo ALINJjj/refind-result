@@ -15,12 +15,12 @@ export const CLIENT__DATA__TO__SHOW = [
     image:
       "https://static.wixstatic.com/media/11062b_f724f7850b194e0989f93850f2594d63~mv2.jpg/v1/crop/x_1092,y_187,w_2580,h_2580/fill/w_621,h_621,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Business%20Agreement%20on%20the%20Terrace.jpg",
     text: `
-        At Refined Results our borders have no limits; we operate globally and at every level.`,
+        At Valcion our borders have no limits; we operate globally and at every level.`,
   },
   {id :2,
     image:
       "https://static.wixstatic.com/media/11062b_36d086b1dff4487f9b1191ac4c04f6c0~mv2.jpg/v1/crop/x_1316,y_399,w_2218,h_2218/fill/w_414,h_414,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/At%20the%20Meeting%20Room.jpg",
-    text: `At Refined Results our goal is to build quality relationships that will
+    text: `At Valcion our goal is to build quality relationships that will
         prove to be mutually beneficial. We invite you to be the newest addition
         to our ever-growing web of communication.`,
   },
@@ -28,7 +28,7 @@ export const CLIENT__DATA__TO__SHOW = [
     image:
       "https://static.wixstatic.com/media/b08fc97db8934f8196371bbbeda5c445.jpg/v1/crop/x_2289,y_1173,w_2023,h_2023/fill/w_414,h_414,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Business%20Meeting.jpg",
     text: `
-        At Refined Results, we value our client's privacy and discretion. In a growing media-based world of digital footprints, and information; we take great measures to maintain our client's confidentiality and confidence in us.`,
+        At Valcion, we value our client's privacy and discretion. In a growing media-based world of digital footprints, and information; we take great measures to maintain our client's confidentiality and confidence in us.`,
   },
 ];
 
@@ -57,7 +57,7 @@ export const SERVICES__DATA = [
       "https://static.wixstatic.com/media/561197a90e6d4a6bb1cf92609952eb46.jpg/v1/fill/w_621,h_414,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/In%20a%20Meeting.jpg",
     title: "Communications Specialist",
 
-    text: `We examine what the top organizations are doing to stay relevant and competitive in this fast-paced world. We explore internal and external factors using a variety of methods specifically tailored to each individual situation, including smart tools and data gathered in order to maximize productivity without sacrificing quality for quantity. This ensures the team at Refined Results provides our clients with the best results.`,
+    text: `We examine what the top organizations are doing to stay relevant and competitive in this fast-paced world. We explore internal and external factors using a variety of methods specifically tailored to each individual situation, including smart tools and data gathered in order to maximize productivity without sacrificing quality for quantity. This ensures the team at Valcion provides our clients with the best results.`,
   },
   {
     id: 4,
@@ -67,7 +67,7 @@ export const SERVICES__DATA = [
     letter: `"It's one thing to be a good closer, it's an entirely other to figure out whether it's worth it or not."`,
 
     author: "- RR",
-    text: `Acquisition management plays a central role in our client's continued successful business development. At Refined Results, our resources are dedicated to ensuring the interest of our clients; providing the necessary services to maintain a competitive edge.`,
+    text: `Acquisition management plays a central role in our client's continued successful business development. At Valcion, our resources are dedicated to ensuring the interest of our clients; providing the necessary services to maintain a competitive edge.`,
   },
 ];
 
@@ -85,18 +85,18 @@ export const ABOUT__SRC = [
 export const QUOTE = [
   {
     id: 1,
-    quote: `"The team at Refined Results was very helpful with modifying our methods of communication & business conduct to maneuver around the pandemic."`,
+    quote: `"The team at Valcion was very helpful with modifying our methods of communication & business conduct to maneuver around the pandemic."`,
     author : "Pronto Movers"
   },
   {
     id: 2,
     quote: `
-    "Refined Results always exceeded expectations; timeframes, earlier than expected; detailed oriented and they have always valued quality over quantity."`,
+    "Valcion always exceeded expectations; timeframes, earlier than expected; detailed oriented and they have always valued quality over quantity."`,
     author : "Zengon Designs"
   },
   {
     id: 3,
-    quote: `"The team at Refined Results valued every project; big or small they always delivered on time and represented our group with the level of professionalism that is not so common."`,
+    quote: `"The team at Valcion valued every project; big or small they always delivered on time and represented our group with the level of professionalism that is not so common."`,
     author : "MK Real Estate Group"
   },
 ];

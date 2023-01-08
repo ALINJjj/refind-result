@@ -21,7 +21,7 @@ const About = () => {
         <h2>Who We Are</h2>
         <div data-aos="fade" data-aos-once="true" className="center">
         <p>
-          Refined Results was founded in 2012 with a single mission: to create a
+          Valcion was founded in 2012 with a single mission: to create a
           web of clients that spans across the globe. We believe building
           long-lasting relationships are the core to any successful
           relationship. Whether it's for the exchange of goods, services, or
@@ -59,7 +59,7 @@ const About = () => {
             Authors, businessmen, professors; can all have differences in
             opinions regarding which methods are best for approaching business
             tactics. However, the root of any agreement or discussion is
-            language. Mr. Devry, the lead consultant here at Refined Results
+            language. Mr. Devry, the lead consultant here at Valcion
             embodies the idea of language being the most important factor in any
             business setting. He always refers to the notion that 'It's not what
             you say, but how you say it." The power of language is just as

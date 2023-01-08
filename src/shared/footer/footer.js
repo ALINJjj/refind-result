@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <a href="mailto:contactus@refinedresults.ca">
-        contactus@refinedresults.ca
+        Email Us
       </a>
       <a href="tel:+1 18337733463">18337733463</a>
       <div className="social__media">
