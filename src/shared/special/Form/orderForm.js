@@ -71,7 +71,7 @@ const OrderForm = (props) => {
           textAria
           label="Enquiries *"
           placeholder="Explain Briefly What Your Needs Are ..."
-          validator={VALIDATOR_MINLENGTH(10)}
+          validator={VALIDATOR_MINLENGTH(5)}
         />
 
         <Button type="submit" isValid={!formState.formIsValid}>

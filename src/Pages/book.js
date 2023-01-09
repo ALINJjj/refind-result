@@ -3,6 +3,7 @@ import Modal from "../shared/UIElements/Modal";
 import { useState } from "react";
 import BookButton from "../shared/special/book-button";
 import useForm from "../hooks/form-hook";
+import { FREE, PAID } from "../links";
 const Book = () => {
   const [showModal, setShowModal] = useState(false);
   const [showAfterModal, setShowAfterModal] = useState(false);
@@ -45,11 +46,11 @@ const Book = () => {
     });
   };
   const enterFreeModal = () => {
-    setType("free");
+    setType(FREE);
     setShowModal(true);
   };
   const enterPaidModal = () => {
-    setType("Not Free");
+    setType(PAID);
     setShowModal(true);
   };
 
@@ -66,7 +67,6 @@ const Book = () => {
           close={closeModal}
           order
           type={Type}
-          message="Oops! This service is currently unavailable, please contact us by email/phonenumber for further information"
           onClick={closeModal}
           show={showModal}
           info="remove"
@@ -74,7 +74,7 @@ const Book = () => {
       )}
       {showAfterModal && (
         <Modal
-          message="Your application is been sent to we will contact u for more information"
+          message="Thank you for your request! We will contact you soon"
           show={showAfterModal}
           onClick={closeShowAfterModal}
           info="remove"

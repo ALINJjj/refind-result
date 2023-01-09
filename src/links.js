@@ -106,5 +106,5 @@ export const YEAR = new Date().getFullYear();
 
 export const ORDER_TEMLATE = "template_ygavboc"
 export const CONTACT_TEMPLATE = "template_0dqx5gm"
-
-
+export const FREE = "Free";
+export const PAID = "Paid"
