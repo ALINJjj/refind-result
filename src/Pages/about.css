@@ -4,8 +4,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
     text-align: center;
+    
+}
+
+.description {
+    position: absolute;
+}
+
+.globe {
+    height: 30rem;
+    width: 100%;
+    background: url("../assets/globe.jpg");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    opacity: 0.4;
+    background-position: center;
 }
 
 .ceo {
@@ -46,8 +61,8 @@
 .about p {
     
     width: 60%;
-    font-size: 0.8rem;
-    font-weight: 100;
+    font-size: 1rem;
+    font-weight: 200;
     line-height: 1.5rem;
 }   
 
@@ -57,5 +72,9 @@
     }
     .about p {
         width: 100%;
+    }
+    .ceo > div > h1{
+        font-size: 2rem;
+        line-height: normal;
     }
 }

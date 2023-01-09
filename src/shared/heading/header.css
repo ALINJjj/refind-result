@@ -14,7 +14,7 @@
 }
 
 .logo {
-    width: 200px;
+    width: 280px;
     height: 150px;
 }
 
@@ -60,8 +60,8 @@
         display: none;
     }
     .logo{
-        width: 150px;
-        height: 80px;
+        width: 200px;
+        height: 100px;
     }
     .title h3 {
         margin: 0.5rem;

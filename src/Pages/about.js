@@ -16,9 +16,12 @@ const About = () => {
   };
   return (
     <>
-    
+
       <div className="about">
-        <h2>Who We Are</h2>
+      <div className="globe"/>
+    
+       <div className="description">
+       <h2>Who We Are</h2>
         <div data-aos="fade" data-aos-once="true" className="center">
         <p>
           Valcion was founded in 2012 with a single mission: to create a
@@ -30,6 +33,7 @@ const About = () => {
           to each situation.
         </p>
         </div>
+       </div>
        
       </div>
       <div data-aos="fade" data-aos-once="true">
@@ -39,7 +43,7 @@ const About = () => {
       <div className="about">
         <div className="ceo">
           <div data-aos="fade" data-aos-once="true">
-            <h1>a word from our Director</h1>
+            <h1>A Word From Our Director</h1>
           </div>
 
           <div data-aos="fade" data-aos-delay = "600"	data-aos-once="true">   <h4>
