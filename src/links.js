@@ -133,5 +133,5 @@ export const ORDER_TEMLATE = "template_6c1dbx3";
 export const CONTACT_TEMPLATE = "template_kvm1y1e";
 export const FREE = "Free";
 export const PAID = "Paid";
-export const SERVICE_ID = "service_eif73r6";
+export const SERVICE_ID = "service_a5c6f6d";
 export const APP_ID = "yVosWq80dyX95QGE5";
