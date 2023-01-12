@@ -13,7 +13,7 @@ const Contact = () => {
     <div className="contact">
       <div className="information">
         <h2>Contact Us</h2>
-        <ContactInfo type = "email" text = "valcion@outlook.com"/>
+        <ContactInfo type = "email" text = "contact@valcion.ca"/>
         <ContactInfo type = "phone" text = "(833) 773-3463"/>
           <a href={MAP__SRC} target="_blank" className="location__link">
           <FontAwesomeIcon className="location" icon={faLocationPin} />

@@ -10,7 +10,7 @@ import { COMPAGNIE_NAME, YEAR } from "../../links";
 const Footer = () => {
   return (
     <footer className="footer">
-      <a href="mailto:valcion@outlook.com">
+      <a href="mailto:contact@valcion.ca">
         Email Us
       </a>
       <a href="tel:+1 18337733463">18337733463</a>
