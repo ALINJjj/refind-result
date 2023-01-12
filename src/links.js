@@ -4,7 +4,7 @@ export const HOME__SRC =
   "https://static.wixstatic.com/media/4f8f5a805e504f0c95afe05b01d26d77.jpg/v1/fill/w_980,h_740,fp_0.50_0.50,q_85,usm_0.66_1.00_0.01,enc_auto/4f8f5a805e504f0c95afe05b01d26d77.jpg";
 export const HOME__SRC__2 =
   "https://www.theforage.com/blog/wp-content/uploads/2022/09/Depositphotos_44798801_L-1024x682.jpg";
-export const MAP__SRC = "https://goo.gl/maps/qBJe1soTTk7YRuVDA";
+export const MAP__SRC = "https://goo.gl/maps/wzp6UsWKD4Evw81RA";
 
 export const CONSULTING__SRC =
   "https://static.wixstatic.com/media/nsplsh_5454504d704c6c5f326c63~mv2.jpg/v1/fill/w_832,h_394,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/nsplsh_5454504d704c6c5f326c63~mv2.jpg";

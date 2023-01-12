@@ -13,7 +13,7 @@ const Footer = () => {
       <a href="mailto:contact@valcion.ca">
         Email Us
       </a>
-      <a href="tel:+1 18337733463">18337733463</a>
+      <a href="tel:+18337733463">1-833-773-3463</a>
       <div className="social__media">
         <a target="_blank" href="http://www.facebook.com">
           <FontAwesomeIcon className="back-white" icon={faFacebookF} />
