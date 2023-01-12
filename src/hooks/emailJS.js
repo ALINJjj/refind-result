@@ -1,13 +1,14 @@
 import emailjs from "@emailjs/browser";
+import { APP_ID, SERVICE_ID } from "../links";
 
 export const sendEmail = (templateId, ref) => {
     try {
         emailjs
           .sendForm(
-            "service_vrmp10w",
+            SERVICE_ID,
             templateId,
             ref,
-            "Lp6zHOUyDd3S17ht-"
+            APP_ID
           )
           .then(
             (result) => {},

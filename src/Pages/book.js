@@ -74,7 +74,9 @@ const Book = () => {
       )}
       {showAfterModal && (
         <Modal
-          message="Thank you for your request! We will contact you soon"
+          message={`We have received your request and will send you a confirmation email shortly to verify your appointment.
+
+If you have any further questions you can reply to the confirmation email you receive or give us a call at 1-833-773-3463 `}
           show={showAfterModal}
           onClick={closeShowAfterModal}
           info="remove"

@@ -68,7 +68,7 @@ const ContactForm = (props) => {
           onInput={inputHandler}
           id="name"
           name="user_name"
-          label=" name *"
+          label=" Name *"
           placeholder="Enter your name "
           validator={VALIDATOR_REQUIRE()}
         />
