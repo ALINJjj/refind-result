@@ -63,6 +63,8 @@ const ContactForm = (props) => {
         onClick={closeModal}
         show={showModal}
       />
+              <h2>Contact Us</h2>
+
       <form ref={formRef} onSubmit={sendHandler}>
         <Input
           onInput={inputHandler}

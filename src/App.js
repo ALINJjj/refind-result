@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes,Navigate } from "react-router-dom";
 import Home from "./Pages/home";
 import Contact from "./shared/special/contact";
 import Basic from "./Pages/Basic";
@@ -12,7 +12,6 @@ import Book from "./Pages/book";
 import { useEffect } from "react";
 import Aos from "aos";
 function App() {
-
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -55,7 +54,15 @@ function App() {
               </Basic>
             }
           />
-          <Route path="/book" element = {<Basic><Book/></Basic>} />
+          {/* <Route
+            path="/book"
+            element={
+              <Basic>
+                <Book />
+              </Basic>
+            }
+          /> */}
+          <Route path="*" element = {<Navigate to="/"/>} />
         </Routes>
       </BrowserRouter>
     </div>

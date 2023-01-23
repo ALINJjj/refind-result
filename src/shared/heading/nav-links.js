@@ -9,10 +9,10 @@ const NavLinks = (props) => {
           <li>
             <NavLink onClick={props.onClick} to="/">Home</NavLink>
           </li>
-          <li>
+          {/* <li>
             {" "}
             <NavLink onClick={props.onClick} to="/book">Book online</NavLink>
-          </li>
+          </li> */}
           <li>
             {" "}
             <NavLink onClick={props.onClick} to="/client">Clients</NavLink>
